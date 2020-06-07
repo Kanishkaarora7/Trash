@@ -8,9 +8,9 @@ class  Dustbin {
             restitution:1.0
         }
     
-        this.body = Bodies.rectangle(x,y,20,50,ground_options);
-        this.width=20;
-        this.height=50;
+        this.body = Bodies.rectangle(x,y,width,height,ground_options);
+        this.width=width;
+        this.height=height;
      
         World.add(world,this.body);
     
@@ -23,7 +23,7 @@ class  Dustbin {
        rectMode(CENTER)
        fill('yellow')
       stroke ('red')
-       rect(1970,370,this.width,this.height);
+       rect(0,0,this.width,this.height);
     pop ()
 } 
 }
