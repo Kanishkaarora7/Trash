@@ -16,7 +16,7 @@ function setup(){
 groundClass=new ground(600,390,1200,20)
 trashClass=new Trash(20,20)
 chainClass=new Chain(trashClass.body,{x:200,y:50})
-dustbinClass=new Dustbin(1970,370,20,40);
+dustbinClass=new Dustbin(1000,370,20,40);
 }
 function draw(){
     background(225);
